@@ -19,7 +19,7 @@
 get_L1000ph2_expression = function(sig_ids="all",filter_zscores="none", genes="all", cells="all", perturbagens="all", perturbagen_type="all",perturbagen_dose="all",perturbagen_time="all",limits=1000)
 { startT=proc.time()[3]
   message("Querying LINCS data...",appendLF=FALSE)
-  r <- httr::GET("http://204.68.92.133:8081/get_L1000ph2",
+  r <- httr::GET("http://lincsanalytics.ccs.miami.edu:8081/get_L1000ph2",
                  query = list(sig_ids = paste(sig_ids,collapse = "//"),
                               cells =  paste(cells,collapse = "//"),
                               genes =  paste(genes,collapse = "//"),
