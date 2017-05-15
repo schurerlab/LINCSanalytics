@@ -5,7 +5,6 @@
 #' @examples
 #' available_data()
 
-
 available_data=function()
 {
   r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/available_data")
