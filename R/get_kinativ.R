@@ -14,7 +14,7 @@
 get_kinativ = function(level="perc_inhib", cells="all",proteins="all", perturbagens="all", perturbagen_dose="all")
 { startT=proc.time()[3]
 message("Querying LINCS data...",appendLF=FALSE)
-r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/get_kinativ",
+r <- httr::GET("http://204.68.92.133:8081/get_kinativ",
                query = list(level=level,
                             cells =  paste(cells,collapse = "//"),
                             proteins =  paste(proteins,collapse = "//"),

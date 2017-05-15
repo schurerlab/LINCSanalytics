@@ -21,7 +21,7 @@
 get_p100_expression = function(filter_foldchange="none", proteins="all", uniprot_ids="all", cells="all", perturbagens="all", perturbagen_dose="all",perturbagen_time= "all",replicates="all",limits=1000)
 { startT=proc.time()[3]
 message("Querying LINCS data...",appendLF=FALSE)
-r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/get_p100",
+r <- httr::GET("http://204.68.92.133:8081/get_p100",
                query = list(proteins =  paste(proteins,collapse = "//"),
                             uniprot_ids =  paste(uniprot_ids,collapse = "//"),
                             cells =  paste(cells,collapse = "//"),

@@ -15,7 +15,7 @@
 get_kinomescan = function(level="perc_ctrl",filter_perc_or_kd="none", proteins="all", perturbagens="all", perturbagen_dose="all")
 { startT=proc.time()[3]
 message("Querying LINCS data...",appendLF=FALSE)
-r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/get_kinomescan",
+r <- httr::GET("http://204.68.92.133:8081/get_kinomescan",
                query = list(level=level,
                             proteins =  paste(proteins,collapse = "//"),
                             perturbagens =  paste(perturbagens,collapse = "//"),

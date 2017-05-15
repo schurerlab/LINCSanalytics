@@ -14,7 +14,7 @@
 get_mema = function(ligands="all", ecmps="all", cells="all",staining_set=1,limits=100)
 { startT=proc.time()[3]
 message("Querying LINCS data...",appendLF=FALSE)
-r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/get_mema",
+r <- httr::GET("http://204.68.92.133:8081/get_mema",
                query = list(ligands = paste(ligands,collapse = "//"),
                             ecmps =  paste(ecmps,collapse = "//"),
                             cells =  paste(cells,collapse = "//"),
