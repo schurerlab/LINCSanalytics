@@ -5,7 +5,7 @@ To install the package from R use the install_github function from package devto
 > install.packages("devtools")<br>
 > library(devtools)<br>
 > install_github("mforlin/LINCSanalytics")<br>
-> library(LINCSdata)
+> library(LINCSanalytics)
 
 Current version includes the following functions:<br>
 <li>available_data(), lists the available LINCS datasets, their ID and assay name<br>
