@@ -1,6 +1,4 @@
 # LINCSanalytics
-An integrated platform for the efficient query and computation across diverse LINCS signatures
-
 LINCSanalytics is a computational platform built on top of the open source Cloudera Hadoop distribution
 
 An R package, called LINCSanalytics, enables computational biologists, and in general R users, to fully access the platform.
