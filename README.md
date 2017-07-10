@@ -1,5 +1,9 @@
 # LINCSanalytics
-R package to query and compute data and metadata from LINCS project
+An integrated platform for the efficient query and computation across diverse LINCS signatures
+
+LINCSanalytics is a computational platform built on top of the open source Cloudera Hadoop distribution
+
+An R package, called LINCSanalytics, enables computational biologists, and in general R users, to fully access the platform.
 
 To install the package from R use the install_github function from package devtools:<br>
 > install.packages("devtools")<br>
