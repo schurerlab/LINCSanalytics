@@ -20,7 +20,7 @@ Current version includes the following functions:<br>
 <li>get_gcp_expression(), retrieves Global Chromatin Profiling (GCP) data, plate normalized log2 fold change<br>
 <li>get_kinomescan(), retrieves KINOMEscan assay data, percent control or Kd.<br>
 <li>get_kinatv(), retrieve KiNativ assay data, percent inhibition or IC50<br>
-<li>predict_kinase(), predicts kinase inhibition probability for a given small molecule smiles (Knet model, ref)<br>
+<li>predict_kinase(), predicts kinase inhibition probability for a given small molecule smiles (Knet model)<br>
 
 Help is available using:
 > ?function_name
