@@ -1,7 +1,8 @@
 # LINCSanalytics
-LINCSanalytics is a computational platform built on top of the open source Cloudera Hadoop distribution.
 
 **** Package functions are not available due to server migration until Aug 17th ****
+
+LINCSanalytics is a computational platform built on top of the open source Cloudera Hadoop distribution.
 
 
 More information can be found here:
