@@ -14,7 +14,7 @@ get_rppa = function(lds_id=NULL, cells="all",perturbagens="all")
     { stop("lds_id must be a string with a valid LDS-ID, e.g. 'LDS-1209'") }
   startT=proc.time()[3]
 message("Querying LINCS data...",appendLF=FALSE)
-r <- httr::GET("http://lincsanalytics.ccs.miami.edu:8081/get_rppa",
+r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/get_rppa",
                query = list(lds_id = lds_id,
                             cells =  paste(cells,collapse = "//"),
                             perturbagens =  paste(perturbagens,collapse = "//")

@@ -15,7 +15,7 @@ get_imaging = function(lds_id=NULL, cells="all",perturbagens="all")
     { stop("lds_id must be a string with a valid LDS-ID, e.g. 'LDS-1263'") }
   startT=proc.time()[3]
 message("Querying LINCS data...",appendLF=FALSE)
-r <- httr::GET("http://lincsanalytics.ccs.miami.edu:8081/get_imaging",
+r <- httr::GET("http://bdapp4.ccs.miami.edu:8998/get_imaging",
                query = list(lds_id = lds_id,
                             cells =  paste(cells,collapse = "//"),
                             perturbagens =  paste(perturbagens,collapse = "//")
