@@ -11,7 +11,7 @@ An R package, called LINCSanalytics, enables computational biologists, and in ge
 To install the package from R use the install_github function from package devtools:<br>
 > install.packages("devtools")<br>
 > library(devtools)<br>
-> install_github("mforlin/LINCSanalytics")<br>
+> install_github("schurerlab/LINCSanalytics")<br>
 > library(LINCSanalytics)
 
 Current version includes the following functions:<br>
